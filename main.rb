@@ -1,8 +1,7 @@
 require './game'
 require './questions'
 require './output'
-# needs refactor
-#just starting 
+
 output = Output.new
 output.game_start
 player1, player2 = output.new_players
