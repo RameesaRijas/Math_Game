@@ -1,3 +1,6 @@
+#player class
+# readable name for accessing name
+# lives - to change each time when give wrong answers
 class Player
   attr_reader :name
   attr_accessor :lives
@@ -10,4 +13,3 @@ class Player
     @lives -= 1
   end
 end
-
